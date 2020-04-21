@@ -1,8 +1,6 @@
 <?php
 
-require_once('Controllers/exampleLesson.php');
-require_once('Models/exampleLesson.php');
-require_once('Views/exampleLesson.php');
+require_once('vendor/autoload.php');
 
 $exampleLesson = new exampleLessonController;
 $exampleLesson->addListItem('item toevoegen');

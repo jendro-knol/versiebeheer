@@ -1,0 +1,9 @@
+{
+	"autoload": {
+		"files": [
+			"Controllers/exampleLesson.php",
+			"Models/exampleLesson.php",
+			"Views/exampleLesson.php"
+		]
+	}
+}

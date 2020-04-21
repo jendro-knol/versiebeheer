@@ -18,9 +18,9 @@ class ExampleLessonController
 		$this->view = new ExampleLessonView();
 	}
 
-	function getQuery()
+	function getQuery($table = 'cars')
 	{
-		$query = 'SELECT * FROM `cars`';
+		$query = 'SELECT * FROM `'.$table.'`';
 		$sth = $this->model->read($query);
 
 		$rows = [];
